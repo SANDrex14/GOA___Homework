@@ -1,0 +1,173 @@
+  /*
+   1. Styling Techniques 
+ სტილის განსხვავებული მეთოდები 
+
+ 2. The Anatomy of CSS 
+selector {
+    property: valu
+} CSS-ის წესი შედგება სელექტორის და დეკლარაციის ბლოკისგან 
+
+ 3. AI-generated practice 
+ პრაქტიკა AI-ის მიერ შექმნილი მაგალითების გამოყენებით 
+
+ 4. Style Inheritance 
+body {
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: inherit;  მამისგან მემკვიდრეობს ფერს 
+}
+
+ 5. ID and Class Selectors 
+#uniqueID {
+    color: blue;
+
+.className {
+    font-size: 16px;
+}
+
+ 6. Standards and Best Practices 
+ გამოიყენეთ მნიშვნელობით სახელები და შეინარჩუნეთ თანმიმდევრულობა 
+
+ 7. Profile Page Project Step 1 
+ პროფილის გვერდისთვის პირველადი სტილები 
+ 8. Module 1 Quiz 
+სტილის კონცეპტების შემოწმება 
+
+ 9. Styling Elements 
+h1 {
+    color: green;
+}
+
+ 10. Introduction to Color 
+p {
+    color: #ff0000;  წითელი 
+}
+
+ 11. Styling Text 
+p {
+    font-weight: bold;
+}
+
+/12. AI-generated practice 
+/ტექსტის სტილის პრაქტიკა 
+
+ 13. Font Styles 
+h2 {
+    font-family: 'Georgia', serif;
+}
+
+ 14. Profile Page Project Step 2 
+ დამატებითი სტილები პროფილის გვერდისთვის 
+
+ 15. Styling Links 
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;  ხაზგასმული წვერა 
+}
+
+ 16. Styling Tables 
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+
+ 17. Styling Lists 
+ul {
+    list-style-type: none;  სიის სტილის უქმნის 
+}
+
+ 18. Profile Page Project Step 3 
+ გაგრძელება პროფილის გვერდის სტილიზაციი
+
+ 19. AI-generated practice 
+ ფორმების სტილის პრაქტიკა 
+
+20. Styling Forms 
+input, textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+ 21. Module 2 Quiz 
+ მოდულის მეორე quiz
+
+22. Page Design and Layout 
+გვერდის დიზაინისა და ფორმატირების სტილები 
+
+ 23. The Box Model 
+div {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+ 24. Flexbox Layout 
+.container {
+    display: flex;
+}
+
+ 25. Positioning 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+ 26. Profile Page Project Step 4 
+პროფესიული გვერდის მეოთხე ეტაპი 
+
+ 27. Backgrounds 
+body {
+    background-color: #f0f0f0;
+}
+
+ 28. AI-generated practice 
+ ფონების სტილის პრაქტიკა 
+
+ 29. Transitions & Transforms 
+.element {
+    transition: all 0.3s ease;
+}
+
+ 30. Transforms 
+.element {
+    transform: rotate(45deg);
+}
+
+ 31. Transition
+.element:hover {
+    background-color: blue;
+}
+
+ 32. Keyframes & Animations 
+@keyframes example {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.element {
+    animation: example 2s;
+}
+
+ 33. AI-generated practice 
+ ანიმაციის სტილის პრაქტიკა 
+
+ 34. Animation Properties 
+.element {
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+ 35. Profile Page Project Step 5 
+ პროფილის გვერდის საბოლოო სტილიზაცია  
+ */ 

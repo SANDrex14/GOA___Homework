@@ -1,0 +1,17 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+input[type="text"] {
+    border: 1px solid tomato;
+    border-radius: 10px;
+    padding: 12px 15px;
+}

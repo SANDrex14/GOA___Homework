@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nino Mtavruli', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+#mockup {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.device {
+    max-width: 300px;
+    margin: 0 20px;
+}
+
+#features {
+    text-align: center;
+    padding: 50px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.feature {
+    max-width: 250px;
+}
+
+.feature img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+.company-logos img {
+    width: 100px;
+    margin: 0 10px;
+}

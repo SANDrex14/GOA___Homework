@@ -1,0 +1,1 @@
+# gvian semovedi da gv ver gavakete sxva jgufsi viyavi

@@ -1,0 +1,126 @@
+.yellowbox1 {
+    width: 250px;
+    height: 420px;
+    background-color: #e28525;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+
+.boxh1 {
+    font-size: 15px;
+    transform: translateY(-350px);
+    margin-left: 80px;
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+.paragraph1 {
+    font-weight: 700;
+    font-family: "Big Shoulders Display", sans-serif;
+    color: #fdc384;
+    width: 200px;
+    transform: translateY(-345px);
+    margin-left: 85px;
+    color: #ffc379;
+}
+
+.buttondivstyle {
+    transform: translateY(-230px);
+    background-color: white;
+    margin-left: 80px;
+    border: none;
+    height: 41px;
+    width: 120px;
+    border-radius: 15px;
+    color: orange;
+
+}
+
+.box2 {
+    width: 250px;
+    height: 420px;
+    background-color: #016972;
+    margin-left: 320px;
+    transform: translateY(-610px);
+    border-radius: 5px;
+    display: flex;
+
+
+}
+
+.SUVS {
+    color: white;
+    font-family: "Big Shoulders Display", sans-serif;
+    margin-top: 77px;
+    margin-left: 15px;
+}
+
+.indivparagraph {
+    transform: translateY(-500px);
+    width: 145px;
+    margin-left: 350px;
+    transform: translateY(-925px);
+    color: #7acad0;
+}
+
+.indivblockbutton {
+    background-color: white;
+    border: none;
+    height: 41px;
+    width: 120px;
+    background-color: wheat;
+    margin-left: 350px;
+    transform: translateY(-850px);
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.box3 {
+    width: 250px;
+    height: 420px;
+    background-color: #f5b142;
+    transform: translateY(-1217px);
+    margin-left: 570px;
+    border-radius: 5px;
+    /* margin - left წაიღებს მარცხნიდან მარჯვნივ ტექსტს div container-ს და ა.შ */
+    background-color: #00403f;
+    /* შეუცვლის ჩვენს div-ს ბექგრაუნდ ქოლორს ანუ უკანა ფონს, რა ფერსაც გავუწერთ იმფერად */
+}
+
+.thirddiv {
+    transform: translateY(-1200px);
+    font-family: "Big Shoulders Display", sans-serif;
+    margin-left: 680px;
+    transform: translateY(-1550px);
+}
+
+.inthirddivp {
+    transform: translateY(-1300px);
+    font-family: "Big Shoulders Display", sans-serif;
+    width: 150px;
+    margin-left: 650px;
+    transform: translateY(-1530px);
+    margin-left: 670px;
+    color: #83bdbc;
+
+}
+
+.indivblock {
+    transform: translateY(-835px);
+    margin-left: 350px;
+    height: 41px;
+    width: 125px;
+    border-radius: 15px;
+}
+
+.in3divbutton {
+    transform: translateY(-1490px);
+    margin-left: 700px;
+    height: 41px;
+    width: 120px;
+    border-radius: 15px;
+    color: #496362;
+
+    
+}
