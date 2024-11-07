@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red:hover {
+    transform: scale(1.2);
+}
+
+.blue:hover {
+    transform: rotate(45deg);
+}
+
+.green:hover {
+    transform: translateX(50px);
+}
+
+.yellow:hover {
+    transform: skew(20deg, 20deg);
+}
