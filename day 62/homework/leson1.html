@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მაუსის ეფექტი</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.text-container {
+    position: relative;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.hidden-text {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    font-size: 20px;
+    color: #333;
+}
+
+.text-container:hover .hidden-text {
+    opacity: 1;
+}
+
+    </style>
+</head>
+<body>
+    <div class="text-container">
+        <p class="hidden-text">ოიეაა</p>
+    </div>
+</body>
+</html>

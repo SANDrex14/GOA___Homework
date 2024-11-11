@@ -1,0 +1,19 @@
+.hover-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #3498db; /* ღილაკის საწყისი ფერი */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* ყველა ცვლილება ტრანზიციის გავლით */
+    position: relative; /* აუცილებელია, რათა პოსიციონირების ცვლილება განხორციელდეს */
+}
+
+/* ღილაკის ეფექტი hover-ზე */
+.hover-button:hover {
+    background-color: #e74c3c; /* ღილაკის ფერის შეცვლა */
+    transform: scale(2); /* ზომის გაზრდა ორჯერ */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* ჩრდილის დამატება */
+    left: 200px; /* პოზიციის ცვლილება x ღერძზე 200px */
+}
