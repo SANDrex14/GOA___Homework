@@ -1,0 +1,94 @@
+#div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    animation-name: div;
+    animation-duration: 4s;
+    transform: ease-in-out;
+}
+
+@keyframes div{
+    0%{
+        start : 0deg;
+    }
+    50%{
+        width: 500px;
+    }
+    50%{
+        transform: ease-in-out;
+    }
+}
+
+
+#div1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: lorem;
+    animation-duration: 13s;
+}
+
+div:hover{
+    transition: 2s;
+}
+
+@keyframes lorem{
+    0%{
+        transform: start(0deg);
+    }
+   
+    25%{
+        transform: translatex(500px);
+    }
+    50%{
+        transform: translatey(500px);
+    }
+    75%{
+        transform: translatex(-500px);
+    }
+    100%{
+        transform: translateY(-500px);
+    }
+}
+
+
+
+
+#div2{
+    border: 2px solid black;
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;
+    animation-name: css;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-timing-function: calc(5);
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes css{
+    20%{
+        start: 0deg;
+    }
+    40%{
+        transform: rotate(20deg);
+    }
+    60%{
+        transform: rotate(-360deg);
+    }
+
+    60%{
+        transform: translateX(500px);
+    }
+    
+    80%{
+        transform: rotate(360deg);
+    }
+    
+}
