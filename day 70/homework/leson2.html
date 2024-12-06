@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        height: 100vh;
+        display: grid;
+        grid-template-areas: 
+        "sidebar header header sec1"
+        "sidebar sec2 sec3 navigation"
+        "sidebar sec4 sec5 navigation";
+        grid-template-columns: 1fr 3fr 3fr 1fr;
+        grid-template-rows: 1fr 3fr 3fr;
+    }
+
+    header{
+        grid-area: header;
+        background-color: green;
+    }
+
+    nav{
+        grid-area: navigation;
+        background-color: green;
+    }
+
+    aside{
+        grid-area: sidebar;
+        background-color: green;
+    }
+
+    .sec1{
+        grid-area: sec1;
+        background-color: red;
+    }
+
+    .sec2{
+        grid-area: sec2;
+        background-color: yellow;
+    }
+
+    .sec3{
+        grid-area: sec3;
+        background-color: red;
+    }
+
+    .sec4{
+        grid-area: sec4;
+        background-color: red;
+    }
+
+    .sec5{
+        grid-area: sec5;
+        background-color: yellow;
+    }
+
+    header, aside, nav, .sec1, .sec2, .sec3, .sec4, .sec5{
+        font-family: cursive;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 5px solid  purple;
+    }
+    </style>
+</head>
+<body>
+    <header></header>
+    <section></section>
+    <aside class="aside1"></aside>
+    <aside class="aside2"></aside>
+</body>
+</html>
