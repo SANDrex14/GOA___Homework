@@ -1,0 +1,1 @@
+# kompiutertan ar vyavi rom gameketebia
