@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Body */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,7 +12,6 @@ body {
     color: #333;
 }
 
-/* ჰედერი */
 header {
     background-color: #333;
     color: #fff;
@@ -46,7 +44,6 @@ header nav ul li a:hover {
     color: #ff6347;
 }
 
-/* სექციები */
 .section {
     padding: 40px;
     margin: 20px 0;
@@ -69,7 +66,6 @@ header nav ul li a:hover {
     border-radius: 4px;
 }
 
-/* კონტაქტის ფორმა */
 #contact-form {
     display: flex;
     flex-direction: column;
@@ -103,7 +99,6 @@ header nav ul li a:hover {
     background-color: #ff4500;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
