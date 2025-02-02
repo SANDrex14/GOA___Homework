@@ -1,33 +1,14 @@
-# 1
-def sum_mix(arr):
-    return sum(int(x) for x in arr)
+import os
 
-# 2
-def double_char(s):
-    return ''.join(c * 2 for c in s)
+def find_empty_files(directory):
+    empty_files_count = 0
+    for root, _, files in os.walk(directory):
+        for file in files:
+            file_path = os.path.join(root, file)
+            if os.path.getsize(file_path) == 0:
+                print(f"ცარიელი: {file_path}")
+                empty_files_count += 1
 
-# 3
-def array_plus_array(arr1, arr2):
-    return sum(arr1) + sum(arr2)
+    print(f"ცარიელი ფაილების ჯამი: {empty_files_count}")
 
-# 4
-def reverse_words(s):
-    words = s.split()
-    
-    words_reversed = words[::-1]
-    
-    return ' '.join(words_reversed)
-
-# 5
-def sum_str(a, b):
-    if a == "":
-        a = "0"
-    if b == "":
-        b = "0"
-    
-    num_a = int(a)
-    num_b = int(b)
-    
-    result = num_a + num_b
-    
-    return str(result)
+find_empty_files("GOA-homeworks") #შეცვალე მოსწავლის რეპოზიტორიის სახელით.
