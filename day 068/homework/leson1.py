@@ -1,1 +1,0 @@
-# gv mog vces samusao

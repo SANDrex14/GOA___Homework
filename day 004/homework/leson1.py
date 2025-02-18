@@ -1,1 +1,0 @@
-#nope ar miweria radgan sxva jgufudan var

@@ -1,1 +1,0 @@
-# gaketebuli maaq claswork

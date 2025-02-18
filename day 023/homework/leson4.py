@@ -1,8 +1,0 @@
-
-numbers = [1, 2, 3, 4, 5]
-
-product = 1
-for number in numbers:
-    product *= number
-
-print("სიის ელემენტების ნამრავლი არის:", product)

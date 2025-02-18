@@ -1,1 +1,0 @@
-# ragac problema qonda gavakete
