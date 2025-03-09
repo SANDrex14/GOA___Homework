@@ -1,21 +1,21 @@
-# import os
+import os
 
-# folder_path = "C:/Users/pc/Desktop/GOA HOMEWORK"
+folder_path = "C:/Users/pc/Desktop/GOA HOMEWORK"
 
-# for i in range(117, 123):
-#     day_folder = os.path.join(folder_path, f"day {i:03}")
-#     classwork_folder = os.path.join(day_folder, "classwork")
-#     homework_folder = os.path.join(day_folder, "homework")
+for i in range(125):
+    day_folder = os.path.join(folder_path, f"day {i:03}")
+    classwork_folder = os.path.join(day_folder, "classwork")
+    homework_folder = os.path.join(day_folder, "homework")
 
-#     os.makedirs(classwork_folder, exist_ok=True)
-#     os.makedirs(homework_folder, exist_ok=True)
+    os.makedirs(classwork_folder, exist_ok=True)
+    os.makedirs(homework_folder, exist_ok=True)
 
-#     # კლასვორკისა და ჰოუმვორქის ფაილების შექმნა
-#     with open(os.path.join(classwork_folder, "notes.txt"), "w", encoding="utf-8") as f:
-#         f.write("წაშლილია")
+    # კლასვორკისა და ჰოუმვორქის ფაილების შექმნა
+    with open(os.path.join(classwork_folder, "notes.txt"), "w", encoding="utf-8") as f:
+        f.write("წაშლილია")
 
-#     with open(os.path.join(homework_folder, "task.txt"), "w", encoding="utf-8") as f:
-#         f.write("წაშლილია")
+    with open(os.path.join(homework_folder, "task.txt"), "w", encoding="utf-8") as f:
+        f.write("წაშლილია")
 
 # =======================================================
 
