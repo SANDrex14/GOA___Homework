@@ -1,1 +1,27 @@
-წაშლილია
+Here is an overview of the terms you've inquired about:
+
+**Memory Leak**
+
+A memory leak occurs when a computer program incorrectly manages memory allocations, resulting in memory that is no longer needed not being released. This can lead to increased memory usage over time and potentially exhaust available memory, causing program crashes or system slowdowns. citeturn0search11
+
+**Stack Overflow**
+
+A stack overflow happens when a program uses more memory on the call stack than is allocated, often due to excessively deep or infinite recursion. This can result in a program crash or unexpected behavior. citeturn0search13
+
+**Garbage Collection**
+
+Garbage collection is an automatic memory management feature that detects and frees memory occupied by objects that are no longer in use by a program. This helps prevent memory leaks and reduces the need for manual memory management by the programmer. citeturn0search10
+
+**Call Stack**
+
+The call stack is a data structure that stores information about active subroutines or function calls within a program. It helps manage function calls and returns, keeping track of each function's local variables and execution context.
+
+**Heap Memory**
+
+Heap memory is a region of a process's memory used for dynamic memory allocation, where variables are allocated and freed in an arbitrary order. Unlike stack memory, which operates in a last-in, first-out manner, heap memory allows for more flexible memory management but requires careful handling to avoid fragmentation and leaks.
+
+**JavaScript Engine**
+
+A JavaScript engine is a specialized interpreter that executes JavaScript code. It parses the code, optimizes it, and converts it into machine code that the computer's processor can execute. Popular JavaScript engines include Google's V8 (used in Chrome and Node.js) and Mozilla's SpiderMonkey (used in Firefox).
+
+Understanding these concepts is crucial for effective memory management and writing efficient, reliable programs. 
