@@ -2,7 +2,7 @@ import os
 
 folder_path = "C:/Users/pc/Desktop/GOA HOMEWORK"
 
-for i in range(125):
+for i in range(140):
     day_folder = os.path.join(folder_path, f"day {i:03}")
     classwork_folder = os.path.join(day_folder, "classwork")
     homework_folder = os.path.join(day_folder, "homework")

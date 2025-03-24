@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #eef5f9;
+        }
+        .container {
+            display: flex;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .form-container {
+            padding: 20px;
+            width: 300px;
+        }
+        .results-container {
+            background: #1c2b39;
+            color: white;
+            padding: 20px;
+            width: 250px;
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        button {
+            background: #fdd835;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Mortgage Calculator</h2>
+            <label>Mortgage Amount (£)</label>
+            <input type="number" id="amount" value="300000">
+            <label>Mortgage Term (years)</label>
+            <input type="number" id="term" value="25">
+            <label>Interest Rate (%)</label>
+            <input type="number" id="rate" value="4.25">
+            <button onclick="calculateMortgage()">Calculate Repayments</button>
+        </div>
+        <div class="results-container">
+            <h3>Your Results</h3>
+            <p>Monthly Repayments:</p>
+            <h2 id="monthly-payment">£0.00</h2>
+            <p>Total Payments:</p>
+            <h3 id="total-payment">£0.00</h3>
+        </div>
+    </div>
+    <script>
+        function calculateMortgage() {
+            let amount = parseFloat(document.getElementById('amount').value);
+            let years = parseFloat(document.getElementById('term').value);
+            let rate = parseFloat(document.getElementById('rate').value) / 100 / 12;
+            let months = years * 12;
+            let monthlyPayment = (amount * rate) / (1 - Math.pow(1 + rate, -months));
+            let totalPayment = monthlyPayment * months;
+            document.getElementById('monthly-payment').innerText = '£' + monthlyPayment.toFixed(2);
+            document.getElementById('total-payment').innerText = '£' + totalPayment.toFixed(2);
+        }
+    </script>
+</body>
+</html>
