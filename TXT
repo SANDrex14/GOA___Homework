@@ -3,3 +3,6 @@ git commit -m "commit"
 git push
 
 
+npm init -y
+npm install express socket.io
+node server.js
